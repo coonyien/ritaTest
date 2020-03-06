@@ -1,6 +1,4 @@
 111
-<<<<<<< HEAD
-ÎÒÊÇmaster
-=======
-I'm branch
->>>>>>> branch2
+
+
+Test
