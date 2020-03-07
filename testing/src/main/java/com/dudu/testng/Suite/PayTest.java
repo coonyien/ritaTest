@@ -6,6 +6,6 @@ public class PayTest {
 
     @Test
     public void pay(){
-        System.out.println("Pay test");
+        System.out.println("pay 1: " + Thread.currentThread().getId());
     }
 }

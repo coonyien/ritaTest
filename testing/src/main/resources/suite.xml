@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="AndroidTest">
+<suite name="AndroidTest" parallel="classes" thread-count="2">
     <test name="login">
         <classes>
-            <class name = "com.dudu.testng.Suite.SuiteConfig" />
-            <class name = "com.dudu.testng.Suite.Login" />
+<!--            <class name = "com.dudu.testng.Suite.SuiteConfig" />-->
+            <class name = "com.dudu.testng.Suite.ReviewTest" />
+            <class name = "com.dudu.testng.Suite.PayTest" />
         </classes>
     </test>
 
     <test name="pay">
         <classes>
 <!--            <class name = "com.dudu.testng.Suite.SuiteConfig" />-->
+            <class name = "com.dudu.testng.Suite.ReviewTest" />
             <class name = "com.dudu.testng.Suite.PayTest" />
         </classes>
     </test>
