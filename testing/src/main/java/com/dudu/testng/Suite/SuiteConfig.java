@@ -1,5 +1,17 @@
 package com.dudu.testng.Suite;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
 public class SuiteConfig {
 
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("beforeSuite----");
+    }
+
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("afterSuite----");
+    }
 }
