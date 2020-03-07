@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ritaTest.iml" filepath="$PROJECT_DIR$/.idea/ritaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Automation/Automation.iml" filepath="$PROJECT_DIR$/Automation/Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ritaTest.iml" filepath="$PROJECT_DIR$/ritaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/testing/testing.iml" filepath="$PROJECT_DIR$/testing/testing.iml" />
     </modules>
   </component>
