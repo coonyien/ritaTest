@@ -1,0 +1,38 @@
+[
+  {
+    "description": "First cookie example",
+    "request": {
+      "uri": "/cookieRequest",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "First cookie example text"
+
+    }
+  },
+  {
+    "description": "First cookie example - post",
+    "request": {
+      "uri": "/cookieRequestwithPost",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "dudu",
+        "sex": "male"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "cat": "true",
+        "status": "good"
+      }
+
+    }
+  }
+]

@@ -9,17 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Automation</module>
+        <module>TestReport</module>
         <module>testing</module>
+        <module>httpclientlesson</module>
     </modules>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.0.0</version>
-        </dependency>
-    </dependencies>
+
 
 </project>

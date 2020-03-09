@@ -1,0 +1,26 @@
+[
+  {
+    "description": "Get请求test",
+    "request": {
+      "uri": "/getRequest",
+      "method": "get"
+    },
+    "response": {
+      "text": "Get请求test"
+    }
+  },
+  {
+    "description": "Get请求withParam",
+    "request": {
+      "uri": "/getRequestwithParam",
+      "method": "get",
+      "queries": {
+        "name": "rita",
+        "age": "29"
+      }
+    },
+    "response": {
+      "text": "Get请求withParam"
+    }
+  }
+]

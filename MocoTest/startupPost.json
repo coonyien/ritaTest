@@ -1,0 +1,26 @@
+[
+  {
+    "description": "第一个postRequest",
+    "request": {
+      "uri": "/postRequest",
+      "method": "post"
+    },
+    "response": {
+      "text": "第一个postRequest"
+    }
+  },
+  {
+    "description": "第二个postRequest",
+    "request": {
+      "uri": "/postRequestwithParam",
+      "method": "post",
+      "forms": {
+        "name": "Anthony",
+        "age": "30"
+      }
+    },
+    "response": {
+      "text": "第二个postRequest"
+    }
+  }
+]

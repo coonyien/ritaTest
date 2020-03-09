@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="AndroidTest" parallel="classes" thread-count="2">
-    <test name="login">
+    <test name="SearchKeyword">
         <classes>
 <!--            <class name = "com.dudu.testng.Suite.SuiteConfig" />-->
             <class name = "com.dudu.testng.Suite.ReviewTest" />
